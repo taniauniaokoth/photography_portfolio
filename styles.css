@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Body styling */
@@ -53,7 +53,7 @@ nav ul li a:hover {
 }
 
 /* Sections */
-section {
+.section {
   padding: 40px 20px;
   max-width: 1000px;
   margin: auto;
@@ -72,8 +72,9 @@ section h2 {
 .gallery-section {
   padding: 40px 20px;
   text-align: center;
-  max-width: 1200px; /* Added to keep the gallery from getting too wide */
+  max-width: 1900px; /* Added to keep the gallery from getting too wide */
   margin: auto;
+  max-height: 1000px; /* Added to prevent the gallery from getting too tall */
 }
 
 /* The Grid Container - This handles the side-by-side layout */
