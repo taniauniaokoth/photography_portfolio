@@ -57,6 +57,7 @@ nav ul li a:hover {
   padding: 40px 20px;
   max-width: 1000px;
   margin: auto;
+  background: rgba(244, 212, 212, 0.8); /* Semi-transparent background */
 }
 
 section h2 {
