@@ -86,7 +86,7 @@ section h1 {
   text-align: center;
   max-width: 1900px; /* Added to keep the gallery from getting too wide */
   margin: auto;
-  max-height: 1000px; /* Added to prevent the gallery from getting too tall */
+  max-height: 1500px; /* Added to prevent the gallery from getting too tall */
 }
 
 .gallery-section h2 {
@@ -147,21 +147,19 @@ section h1 {
 }
 
 #me h2 {
-  color: white;
+  color: black;
   text-emphasis: 700px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: bolder;
   font-style: normal;
-  text-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
-  -webkit-text-stroke: 2px black; /* Added text stroke for better visibility */
 }
 
-.logo {
-  display: block;
-  height: 90px;
-  width: 90px;
+#logo {
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 
