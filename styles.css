@@ -55,8 +55,8 @@ nav ul li a:hover{
 /* Sections */
 section{
     padding:40px 20px;
-    max-width: 1000px;
-    margin: auto;
+    max-width:1000px;
+    margin:auto;
 }
 
 section h2{
@@ -102,7 +102,7 @@ section h2{
 }
 
 /* Contact section */
-.contact {
+.contact-section{
     background:white;
     padding:40px 20px;
     border-radius:10px;
