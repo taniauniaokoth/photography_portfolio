@@ -64,6 +64,11 @@ section h2{
     font-size:28px;
 }
 
+
+.photo-card:hover {
+    transform:scale(1.05);
+}
+
 /* Gallery Section */
 .gallery-section{
     padding:40px 20px;
@@ -86,9 +91,6 @@ section h2{
     transition:transform 0.3s;
 }
 
-.photo-card:hover{
-    transform:scale(1.05);
-}
 
 .photo-card img{
     width:100%;
