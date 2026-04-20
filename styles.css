@@ -190,3 +190,15 @@ footer{
     padding: 24px;
     transition: box-shadow 0.3s ease;
 }
+
+
+
+#me {
+    background-image: url('profile.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+#me p {
+    color: white;
+}
