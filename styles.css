@@ -79,6 +79,16 @@ section h2 {
   max-height: 1000px; /* Added to prevent the gallery from getting too tall */
 }
 
+.gallery-section h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  text-shadow: 18px 18px 24px rgba(0, 0, 0, 0.5);
+
+}
+
 /* The Grid Container - This handles the side-by-side layout */
 .gallery-grid {
   display: grid;
@@ -117,6 +127,10 @@ section h2 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+#contact-form {
+    max-width: 600px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -127,6 +141,10 @@ section h2 {
   font-weight: bold;
 }
 
+.form-group a {
+    text-align: center;
+}
+
 .form-group input,
 .form-group textarea {
   width: 100%;
@@ -134,6 +152,11 @@ section h2 {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
+#wider {
+    max-width: 1500px;
+}
+
 
 /* Button */
 .submit-button {
@@ -192,6 +215,7 @@ footer {
   transition: box-shadow 0.3s ease;
 }
 
+/* Biography Section */
 #me {
   background-image: url("profile.jpeg");
   background-size: cover;
@@ -218,20 +242,5 @@ footer {
   text-shadow: 14px 14px 16px rgba(0, 0, 0, 0.5);
 }
 
-.gallery-section h2 {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bolder;
-  font-style: normal;
-  text-shadow: 18px 18px 24px rgba(0, 0, 0, 0.5);
 
-}
 
-#wide {
-    max-width: 1500px;
-}
-
-#contact-form {
-    max-width: 600px;
-}   
