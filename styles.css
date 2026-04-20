@@ -26,6 +26,15 @@ header h1 {
   margin-bottom: 10px;
 }
 
+header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  text-decoration: underline;
+}
+
 header p {
   font-size: 18px;
   margin-bottom: 20px;
