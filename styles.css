@@ -137,6 +137,11 @@ section h1 {
   font-size: 15px;
 }
 
+h3{
+    text-decoration: underline;
+}
+
+
 .list ul {
   list-style: none;
   padding: 0;
