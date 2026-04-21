@@ -68,14 +68,14 @@ nav ul li a:hover {
   padding: 40px 20px;
   max-width: 1000px;
   margin: auto;
-  background-color:  rgb(239, 231, 217);
+  background-color: rgb(239, 231, 217);
   font-size: larger;
 }
 
 section h1 {
   margin-bottom: 15px;
   font-size: 32px;
-}  
+}
 
 /* Introduction Section */
 #intro {
@@ -106,7 +106,6 @@ section h1 {
   font-weight: bolder;
   font-style: normal;
   text-shadow: 18px 18px 24px rgba(0, 0, 0, 0.5);
-
 }
 
 /* The Grid Container - This handles the side-by-side layout */
@@ -119,43 +118,45 @@ section h1 {
 }
 
 .list {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    list-style: none;
-    padding-left: 0;
-    margin: 15px;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    width: 900px;
-    padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  list-style: none;
+  padding-left: 0;
+  margin: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 900px;
+  max-width: 900px;
+  width: 100%;
+  margin: 20px auto;
 }
 
 .list h3 {
-    margin-top: 0px;
-    font-size: 15px;
+  margin-top: 0px;
+  font-size: 15px;
 }
 
 .list ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+  list-style: none;
+  padding: 0;
+  text-align: center;
 }
 
 .list ul li {
-    margin: 1px 0;
+  margin: 1px 0;
 }
 
 .list ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
 }
 
 .list ul li a:hover {
-    color: #d82424;
+  color: #d82424;
 }
 
 /* Photo cards */
@@ -219,31 +220,29 @@ section h1 {
   object-fit: cover;
 }
 
-
 /* Social Section */
 #socials {
-    background: rgba(255, 255, 255, 0.8);
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto 20px;
-    box-sizing: border-box;
-    padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto 20px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 #socials ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 #socials ul li {
-    margin: 10px 0;
+  margin: 10px 0;
 }
-
 
 /* Contact section */
 .contact-section {
-  background: rgba(255, 255, 255, 0.8);  
+  background: rgba(255, 255, 255, 0.8);
   padding: 40px 20px;
   border-radius: 10px;
   max-width: 1200px;
@@ -251,10 +250,9 @@ section h1 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-
 .form-group {
   margin-bottom: 15px;
-  width: 1100px;
+  width: 100%;
 }
 
 .form-group label {
@@ -264,7 +262,7 @@ section h1 {
 }
 
 .form-group a {
-    text-align: center;
+  text-align: center;
 }
 
 .form-group input,
@@ -327,5 +325,3 @@ footer {
   font-style: italic;
   margin-top: 5px;
 }
-
-
