@@ -170,6 +170,16 @@ section h1 {
     box-sizing: border-box;
 }
 
+#socials ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#socials ul li {
+    margin: 10px 0;
+}
+
 
 /* Contact section */
 .contact-section {
