@@ -1,0 +1,14 @@
+photography-portfolio/
+│
+├── index.html
+├── styles.css
+├── README.md
+├── design.png
+├── images/
+│   ├── farm.jpeg
+│   ├── sheep.jpeg
+│   ├── sheep2.jpeg
+│   ├── girl.jpeg
+│   ├── pfp.jpg
+│   ├── background.jpeg
+│   └── profile.jpeg
